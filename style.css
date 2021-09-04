@@ -1,0 +1,81 @@
+body {
+  font-family: "Big Shoulders Display", sans-serif;
+
+  line-height: 1;
+  color: #555;
+  font-size: 15px;
+}
+.attribution {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  display: flex;
+  max-width: 55rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+.cards {
+  color: hsl(0, 0%, 95%);
+  padding: 3.2rem 3.2rem;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 2;
+}
+.card-sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0px 0px 5px;
+}
+.card-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.card-luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 5px 5px 0px;
+}
+.title {
+  font-size: 1.8rem;
+}
+.detail {
+  font-size: 1rem;
+}
+.btn {
+  margin-top: 2rem;
+  border: none;
+  height: 3rem;
+  width: 10rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  font-weight: 700;
+}
+
+.sedan-btn {
+  color: hsl(31, 77%, 52%);
+}
+.sedan-btn:hover,
+.sedan-btn:visited {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 1px solid white;
+}
+.suv-btn {
+  color: hsl(184, 100%, 22%);
+}
+.suv-btn:hover,
+.suv-btn:visited {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 1px solid white;
+}
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
+}
+.luxury-btn:hover,
+.luxury-btn:visited {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: 1px solid white;
+}
