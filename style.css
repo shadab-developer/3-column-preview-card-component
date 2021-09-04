@@ -79,3 +79,22 @@ body {
   color: white;
   border: 1px solid white;
 }
+
+@media (max-width: 23em) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  .card-sedan {
+    border-radius: 5px 5px 0px 0px;
+  }
+  .card-luxury {
+    border-radius: 0px 0px 5px 5px;
+  }
+  .attribution {
+    font-size: 10px;
+    margin-top: 0.5rem;
+  }
+}
